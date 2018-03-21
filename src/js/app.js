@@ -13,60 +13,40 @@ const DefaultOptions = require('../data/default-options.json');
 
 const BACKGROUNDS = [
   {
-    image: 'cameron.jpg',
-    source: 'Blue Devil Nation',
-    link: 'http://bluedevilnation.net/wordpress/wp-content/uploads/2012/02/duke-signs-056.jpg',
+    image: 'overhead.jpg',
+    source: 'Occidental College',
+    link: 'https://www.oxy.edu/maps-directions',
   },
   {
-    image: 'chapel.jpg',
-    source: 'Aljazeera',
-    link: 'http://america.aljazeera.com/content/dam/ajam/images/articles_2015/01/Duke_University_Chapel__A_1152015.jpg',
+    image: 'thornehall.jpg',
+    source: 'Occidental College',
+    link: 'https://www.oxy.edu/life-oxy/our-campus/gallery/web-tour',
   },
   {
-    image: 'west-union.jpg',
-    source: 'Arch2O',
-    link: 'http://www.arch2o.com/wp-content/uploads/2016/12/ARCH2O-Duke-University-West-Campus-Grimshaw-Architects-03.jpg',
+    image: 'erdman.jpg',
+    source: 'Creative College Connections',
+    link: 'http://www.creativecollegeconnections.com/blog/occidental-college',
   },
   {
-    image: 'duke_gardens_terrace.jpg',
+    image: 'roses.jpg',
     source: 'Wikimedia',
-    link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/2008-07-15_Duke_Gardens_main_terrace.jpg/1280px-2008-07-15_Duke_Gardens_main_terrace.jpg',
+    link: 'http://occidentalcollege.tumblr.com/',
   },
   {
-    image: 'duke_gardens.jpg',
-    source: 'Duke University Medical Center',
-    link: 'https://archives.mc.duke.edu/sites/default/files/garden-bridge-ems.jpg',
+    image: 'fowler.jpg',
+    source: 'Occidental College',
+    link: 'http://occidentalcollege.tumblr.com/',
   },
   {
-    image: 'east.jpg',
-    source: 'Huffington Post',
-    link: 'http://i.huffpost.com/gen/1091792/images/o-DUKE-UNIVERSITY-GENDER-CONFIRMATION-facebook.jpg',
+    image: 'knitting.jpg',
+    source: 'Occidental College',
+    link: 'http://occidentalcollege.tumblr.com/',
   },
   {
-    image: 'inside_chapel.jpg',
-    source: 'Prevoir Photography, Wordpress',
-    link: 'https://prevoirphotography.files.wordpress.com/2012/01/duke-chapel-93.jpg',
-  },
-  {
-    image: 'kville.jpg',
-    source: 'Tyler Haar, Wordpress',
-    link: 'https://tylerhaar.files.wordpress.com/2012/07/photo-jul-16-1-13-48-pm.jpg',
-  },
-  {
-    image: 'side_chapel.jpg',
-    source: 'Wojdylo Social Media',
-    link: 'http://wojdylosocialmedia.com/wp-content/uploads/2013/12/dukechapelsky1.jpg',
-  },
-  {
-    image: 'spring_chapel.jpg',
-    source: 'Yumian Deng, Creative Commons',
-    link: 'http://blog.textbooks.com/wp-content/uploads/2014/10/duke-university-flickr-theomania-most-beautiful-college-campuses.jpg',
-  },
-  {
-    image: 'winter_chapel.jpg',
-    source: 'Slate.com',
-    link: 'http://www.slate.com/content/dam/slate/blogs/the_slatest/2015/01/15/duke_university_cancels_planned_chapel_weekly_muslim_call_to_prayer/dukechapel.jpeg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg'
-  },
+    image: 'treesbynewcomb.jpg',
+    source: 'Occidental College',
+    link: 'http://occidentalcollege.tumblr.com/',
+  }
 ];
 
 const FADE_DURATION = 400;
