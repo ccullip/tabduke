@@ -2,15 +2,15 @@
   "items": {
     "showSeconds": {
       "label": "Show clock seconds",
-      "value": "true",
+      "value": "true"
     },
     "militaryTime": {
       "label": "Display clock in military time",
-      "value": "true",
+      "value": "true"
     },
     "boldClock": {
       "label": "Show bolder clock display",
-      "value": "false",
+      "value": "false"
     }
   },
 }

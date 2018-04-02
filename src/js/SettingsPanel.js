@@ -69,7 +69,7 @@ export class SettingsPanel extends React.Component {
         <div
           className='settings-panel-open'
           onClick={this._togglePanel.bind(this)}>
-          <i className="fa fa-cog" aria-hidden="true"></i>
+          <i className="fas fa-cog" aria-hidden="true"></i>
         </div>
       );
     }
@@ -80,7 +80,7 @@ export class SettingsPanel extends React.Component {
         <div
           className='settings-panel-close'
           onClick={this._togglePanel.bind(this)}>
-          <i className="fa fa-times" aria-hidden="true"></i>
+          <i className="fas fa-times" aria-hidden="true"></i>
         </div>
       );
     }

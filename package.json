@@ -1,11 +1,11 @@
 {
   "name": "tabduke",
   "version": "1.0.0",
-  "description": "A new tab dashboard for Duke students",
+  "description": "A new tab dashboard for Oxy students",
   "main": "main.js",
   "scripts": {
     "watch": "watchify -t [ babelify ] src/main.js -o src/bundle.js -v",
-    "build": "browserify -t [ babelify ] src/main.js  | uglifyjs -mc warnings=false > src/bundle.js"
+    "build": "browserify -t [ babelify ] src/main.js | uglify-js -mc warnings=false > src/bundle.js"
   },
   "keywords": [
     "game"
@@ -19,7 +19,8 @@
     "jquery": "^3.2.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-sortable-hoc": "^0.6.7"
+    "react-sortable-hoc": "^0.6.7",
+    "uglify-js": "^3.3.18"
   },
   "babel": {
     "presets": [

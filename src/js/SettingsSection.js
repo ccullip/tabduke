@@ -88,7 +88,7 @@ export class SettingsSection extends React.Component {
           <div
             className='bookmark-settings-item-create'
             onClick={this.props.toggleEditor}>
-            <i className="fa fa-plus" aria-hidden="true"/>
+            <i className="fas fa-plus" aria-hidden="true"/>
             <div>Bookmark</div>
           </div>
         </div>

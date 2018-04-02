@@ -36844,15 +36844,15 @@ module.exports={
   "items": {
     "showSeconds": {
       "label": "Show clock seconds",
-      "value": "true",
+      "value": "true"
     },
     "militaryTime": {
       "label": "Display clock in military time",
-      "value": "true",
+      "value": "true"
     },
     "boldClock": {
       "label": "Show bolder clock display",
-      "value": "false",
+      "value": "false"
     }
   },
 }
@@ -38965,7 +38965,7 @@ var SettingsPanel = exports.SettingsPanel = function (_React$Component) {
           {
             className: 'settings-panel-open',
             onClick: this._togglePanel.bind(this) },
-          React.createElement('i', { className: 'fa fa-cog', 'aria-hidden': 'true' })
+          React.createElement('i', { className: 'fas fa-cog', 'aria-hidden': 'true' })
         );
       }
 
@@ -38976,7 +38976,7 @@ var SettingsPanel = exports.SettingsPanel = function (_React$Component) {
           {
             className: 'settings-panel-close',
             onClick: this._togglePanel.bind(this) },
-          React.createElement('i', { className: 'fa fa-times', 'aria-hidden': 'true' })
+          React.createElement('i', { className: 'fas fa-times', 'aria-hidden': 'true' })
         );
       }
 
@@ -39127,7 +39127,7 @@ var SettingsSection = exports.SettingsSection = function (_React$Component) {
             {
               className: 'bookmark-settings-item-create',
               onClick: this.props.toggleEditor },
-            React.createElement('i', { className: 'fa fa-plus', 'aria-hidden': 'true' }),
+            React.createElement('i', { className: 'fas fa-plus', 'aria-hidden': 'true' }),
             React.createElement(
               'div',
               null,
