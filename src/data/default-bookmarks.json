@@ -15,23 +15,23 @@
       "color": "white"
     },
     {
-      "image": "https://www.v3.co.uk/w-images/b9574043-ae2e-4b15-ba0a-55fae128da0a/0/microsoftoutlooklogo-320x320.jpg",
-      "href": "https://outlook.office.com/owa/?realm=duke.edu",
-      "label": "Outlook Mail",
+      "image": "http://i63.tinypic.com/2s9twf7.gif",
+      "href": "https://my.oxy.edu",
+      "label": "my.oxy",
       "isShown": "true",
       "color": "white"
     },
     {
       "image": "https://yt3.ggpht.com/-RqeU1zU7XUs/AAAAAAAAAAI/AAAAAAAAAAA/IsU_tUMM90s/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
-      "href": "https://sakai.duke.edu",
-      "label": "Sakai",
+      "href": "https://my.oxy.edu",
+      "label": "My Oxy",
       "isShown": "true",
       "color": "white"
     },
     {
       "image": "http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/07/NetflixSquare.png",
-      "href": "https://www.netflix.com",
-      "label": "Netflix",
+      "href": "https://www.google.com",
+      "label": "Google",
       "isShown": "true",
       "color": "white"
     },

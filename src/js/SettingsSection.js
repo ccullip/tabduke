@@ -129,7 +129,7 @@ export class SettingsSection extends React.Component {
       <div className='settings-section'>
         <div className='settings-section-label'>
           <div className='settings-section-icon'>
-            <i className={'fa fa-' + this.props.icon} style={{
+            <i className={'fas fa-' + this.props.icon} style={{
               color: this.props.iconColor,
             }}/>
           </div>

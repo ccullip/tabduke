@@ -5,7 +5,7 @@ const {
   SortableHandle,
 } = require('react-sortable-hoc');
 
-const MAX_BOOKMARKS = 8;
+const MAX_BOOKMARKS = 0;
 const DELETE_ANIMATE_DURATION = 300;
 
 export class BookmarkSettingsItem extends React.Component {
@@ -60,7 +60,7 @@ export class BookmarkSettingsItem extends React.Component {
     const DragHandle = SortableHandle(() => {
       return (
         <div className='bookmark-settings-item-reorder'>
-          <i className="fa fa-bars" aria-hidden="true"></i>
+          <i className="fas fa-bars" aria-hidden="true"></i>
         </div>
       );
     });
@@ -117,7 +117,7 @@ export class BookmarkSettingsItem extends React.Component {
         <div
           className='bookmark-settings-item-delete'
           onClick={this._deleteBookmark.bind(this)}>
-          <i className="fa fa-trash-o" aria-hidden="true"></i>
+          <i className="fas fa-trash-o" aria-hidden="true"></i>
         </div>
       </li>
     );

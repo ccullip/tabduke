@@ -7,8 +7,8 @@ export class LoadingScreen extends React.Component {
   render() {
     return (
       <div id='loading-screen' className='loading-extension'>
-        <div id='tabduke-logo' className='tabduke-logo'>
-          {'tD'}
+        <div id='oxy-logo' className='oxy-logo'>
+          {'O'}
         </div>
         <div className='loading-info'>
           Loading your dashboard...

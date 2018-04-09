@@ -37,12 +37,12 @@ export class BookmarkEditorField extends React.Component {
     if (this.props.errorType == 0) {
       errorType = 'warning';
       errorTypeIcon = (
-        <i className="fa fa-exclamation-triangle" aria-hidden="true"></i>
+        <i className="fas fa-exclamation-triangle" aria-hidden="true"></i>
       );
     } else if (this.props.errorType == 1) {
       errorType = 'error';
       errorTypeIcon = (
-        <i className="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <i className="fas fa-exclamation-circle" aria-hidden="true"></i>
       );
     }
 

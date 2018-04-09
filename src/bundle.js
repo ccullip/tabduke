@@ -36816,23 +36816,23 @@ module.exports={
       "color": "white"
     },
     {
-      "image": "https://www.v3.co.uk/w-images/b9574043-ae2e-4b15-ba0a-55fae128da0a/0/microsoftoutlooklogo-320x320.jpg",
-      "href": "https://outlook.office.com/owa/?realm=duke.edu",
-      "label": "Outlook Mail",
+      "image": "http://i63.tinypic.com/2s9twf7.gif",
+      "href": "https://my.oxy.edu",
+      "label": "my.oxy",
       "isShown": "true",
       "color": "white"
     },
     {
       "image": "https://yt3.ggpht.com/-RqeU1zU7XUs/AAAAAAAAAAI/AAAAAAAAAAA/IsU_tUMM90s/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
-      "href": "https://sakai.duke.edu",
-      "label": "Sakai",
+      "href": "https://my.oxy.edu",
+      "label": "My Oxy",
       "isShown": "true",
       "color": "white"
     },
     {
       "image": "http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/07/NetflixSquare.png",
-      "href": "https://www.netflix.com",
-      "label": "Netflix",
+      "href": "https://www.google.com",
+      "label": "Google",
       "isShown": "true",
       "color": "white"
     },
@@ -37204,7 +37204,7 @@ module.exports={
 module.exports={
   "transloc": "1yByX8ZUaymshdcfSuWsewqQQL4Bp1lj2OVjsnHOiV94rgyRk6",
   "foodtruckcalendar": "AIzaSyDdn7SeJJe79wDWrOsOgYDVffsoNySvScI",
-  "foodtruckcalendarID": "vgkckpl2e04dgvbtn94u1jeuk0%40group.calendar.google.com",
+  "foodtruckcalendarID": "vgkckpl2e04dgvbtn94u1jeuk0%40group.calendar.google.com"
 }
 
 },{}],341:[function(require,module,exports){
@@ -37591,10 +37591,10 @@ var BookmarkEditorField = exports.BookmarkEditorField = function (_React$Compone
 
       if (this.props.errorType == 0) {
         errorType = 'warning';
-        errorTypeIcon = React.createElement('i', { className: 'fa fa-exclamation-triangle', 'aria-hidden': 'true' });
+        errorTypeIcon = React.createElement('i', { className: 'fas fa-exclamation-triangle', 'aria-hidden': 'true' });
       } else if (this.props.errorType == 1) {
         errorType = 'error';
-        errorTypeIcon = React.createElement('i', { className: 'fa fa-exclamation-circle', 'aria-hidden': 'true' });
+        errorTypeIcon = React.createElement('i', { className: 'fas fa-exclamation-circle', 'aria-hidden': 'true' });
       }
 
       var errorHint = React.createElement(
@@ -37653,7 +37653,7 @@ var _require = require('react-sortable-hoc'),
     Sortable = _require.Sortable,
     SortableHandle = _require.SortableHandle;
 
-var MAX_BOOKMARKS = 8;
+var MAX_BOOKMARKS = 0;
 var DELETE_ANIMATE_DURATION = 300;
 
 var BookmarkSettingsItem = exports.BookmarkSettingsItem = function (_React$Component) {
@@ -37716,7 +37716,7 @@ var BookmarkSettingsItem = exports.BookmarkSettingsItem = function (_React$Compo
         return React.createElement(
           'div',
           { className: 'bookmark-settings-item-reorder' },
-          React.createElement('i', { className: 'fa fa-bars', 'aria-hidden': 'true' })
+          React.createElement('i', { className: 'fas fa-bars', 'aria-hidden': 'true' })
         );
       });
 
@@ -37775,7 +37775,7 @@ var BookmarkSettingsItem = exports.BookmarkSettingsItem = function (_React$Compo
           {
             className: 'bookmark-settings-item-delete',
             onClick: this._deleteBookmark.bind(this) },
-          React.createElement('i', { className: 'fa fa-trash-o', 'aria-hidden': 'true' })
+          React.createElement('i', { className: 'fas fa-trash-o', 'aria-hidden': 'true' })
         )
       );
     }
@@ -38429,8 +38429,8 @@ var LoadingScreen = exports.LoadingScreen = function (_React$Component) {
         { id: 'loading-screen', className: 'loading-extension' },
         React.createElement(
           'div',
-          { id: 'tabduke-logo', className: 'tabduke-logo' },
-          'tD'
+          { id: 'oxy-logo', className: 'oxy-logo' },
+          'O'
         ),
         React.createElement(
           'div',
@@ -39183,7 +39183,7 @@ var SettingsSection = exports.SettingsSection = function (_React$Component) {
           React.createElement(
             'div',
             { className: 'settings-section-icon' },
-            React.createElement('i', { className: 'fa fa-' + this.props.icon, style: {
+            React.createElement('i', { className: 'fas fa-' + this.props.icon, style: {
                 color: this.props.iconColor
               } })
           ),
