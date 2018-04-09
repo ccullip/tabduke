@@ -5,7 +5,7 @@ const {
   SortableHandle,
 } = require('react-sortable-hoc');
 
-const MAX_BOOKMARKS = 0;
+const MAX_BOOKMARKS = 8;
 const DELETE_ANIMATE_DURATION = 300;
 
 export class BookmarkSettingsItem extends React.Component {

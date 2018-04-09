@@ -36823,14 +36823,14 @@ module.exports={
       "color": "white"
     },
     {
-      "image": "https://yt3.ggpht.com/-RqeU1zU7XUs/AAAAAAAAAAI/AAAAAAAAAAA/IsU_tUMM90s/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
-      "href": "https://my.oxy.edu",
-      "label": "My Oxy",
+      "image": "http://i68.tinypic.com/ayvc7b.png",
+      "href": "https://oxy.presence.io",
+      "label": "Oxy Presence",
       "isShown": "true",
       "color": "white"
     },
     {
-      "image": "http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/07/NetflixSquare.png",
+      "image": "https://www.shareicon.net/data/256x256/2015/09/25/107085_google_512x512.png",
       "href": "https://www.google.com",
       "label": "Google",
       "isShown": "true",
@@ -37653,7 +37653,7 @@ var _require = require('react-sortable-hoc'),
     Sortable = _require.Sortable,
     SortableHandle = _require.SortableHandle;
 
-var MAX_BOOKMARKS = 0;
+var MAX_BOOKMARKS = 8;
 var DELETE_ANIMATE_DURATION = 300;
 
 var BookmarkSettingsItem = exports.BookmarkSettingsItem = function (_React$Component) {
